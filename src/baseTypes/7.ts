@@ -15,20 +15,5 @@ enum Days {
 
 function isWeekend(day: Days): boolean {
 
-  if (day === "weekand") {
-    return true;
-  }
- else {
-    return false;
-  }
+  return day === "weekand"
 }
-
-console.log(isWeekend(Days.Sunday));     //true;
-console.log(isWeekend(Days.Monday));     //false;
-console.log(isWeekend(Days.Tuesday));    //false;
-console.log(isWeekend(Days.Wednesday));  //false;
-console.log(isWeekend(Days.Thursday));   //false;
-console.log(isWeekend(Days.Friday));     //false;
-console.log(isWeekend(Days.Saturday));   //true;
-
-//Не перевіряти через ChatGPT - відповідь сервісу не вірна.
